@@ -1,0 +1,23 @@
+# Machine Learning Weights & Models
+*.bin
+*.pt
+*.pth
+*.safetensors
+*.ckpt
+/models/
+/outputs/
+
+# Datasets
+/data/
+*.csv
+*.jsonl
+
+# Logs and Checkpoints
+/wandb/
+/runs/
+.ipynb_checkpoints/
+__pycache__/
+
+# Credentials & Environment
+.env
+.DS_Store
